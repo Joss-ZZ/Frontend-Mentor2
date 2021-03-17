@@ -1,0 +1,19 @@
+
+
+@mixin desktop {
+    @media screen and (max-width: $desktop){
+        @content;
+    }
+}
+
+@mixin mediano {
+    @media screen and (max-width: $mediano){
+        @content;
+    }
+}
+
+@mixin telefono {
+    @media screen and (max-width: $telefono){
+        @content;
+    }
+}
